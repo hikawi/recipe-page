@@ -11,7 +11,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="py-10 px-8 flex flex-col gap-8">
+  <div class="py-10 px-8 flex flex-col gap-8 md:p-0">
     <RecipeOverview :title="recipe.title" :description="recipe.description" />
     <RecipePreparation :preparations="recipe.preparations" />
     <RecipeIngredients :ingredients="recipe.ingredients" />

@@ -18,7 +18,7 @@ function changeRecipe() {
 
 <template>
   <main
-    class="flex items-center flex-col justify-center min-h-screen h-fit w-full bg-stone-100 gap-4 md:py-4"
+    class="flex items-center flex-col justify-center min-h-screen h-fit w-full bg-stone-100 gap-4 md:py-32"
   >
     <RecipeCard :recipe="passedRecipe" />
     <RecipeRandomizer @swap-recipe="changeRecipe" />
