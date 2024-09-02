@@ -3,7 +3,7 @@
   "description": "An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.",
   "src": "/image-omelette.jpeg",
   "alt": "Omelette",
-  "preparation": [
+  "preparations": [
     {
       "title": "Total",
       "value": "Approximately 10 minutes"

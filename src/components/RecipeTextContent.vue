@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import RecipeOverview from "@/components/RecipeOverview.vue";
+import RecipePreparation from "@/components/RecipePreparation.vue";
 
 defineProps<{
   recipe: any;
@@ -9,16 +10,7 @@ defineProps<{
 <template>
   <div class="py-10 px-8 flex flex-col gap-8">
     <RecipeOverview :title="recipe.title" :description="recipe.description" />
-
-    <div class="bg-rose-50 rounded-lg p-4 flex flex-col gap-1">
-      <h2 class="text-lg text-rose-800 font-bold">Preparation time</h2>
-
-      <ul class="flex flex-col gap-1 list-disc">
-        <li><span class="font-bold">Total</span>: Approximately 10 minutes</li>
-        <li><span class="font-bold">Preparation</span>: 5 minutes</li>
-        <li><span class="font-bold">Cooking</span>: 5 minutes</li>
-      </ul>
-    </div>
+    <RecipePreparation :preparations="recipe.preparations" />
 
     <h2>Ingredients</h2>
 
