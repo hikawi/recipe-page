@@ -1,39 +1,44 @@
-# recipe-page
+# Frontend Mentor - Recipe page solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Recommended IDE Setup
+## Table of contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
 
-## Type Support for `.vue` Imports in TS
+## Overview
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### The challenge
 
-## Customize configuration
+This is a bit more difficult than the previous challenges as there are layout differences between the mobile and desktop designs. Tailwind made it very simple to implement. Also, I made it as dynamic as possible to fit many types of recipes, instead of hardcoding the recipe details.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Screenshot
 
-## Project Setup
+![Screenshot](./screenshot.jpg)
 
-```sh
-pnpm install
-```
+### Links
 
-### Compile and Hot-Reload for Development
+- Live Site URL: [Add live site URL here](https://recipe-page.frilly.dev)
 
-```sh
-pnpm dev
-```
+## My process
 
-### Type-Check, Compile and Minify for Production
+### Built with
 
-```sh
-pnpm build
-```
+- [Vue.js](https://vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-### Lint with [ESLint](https://eslint.org/)
+### What I learned
 
-```sh
-pnpm lint
-```
+- VueJS Component Emitting Events (apparently they have to be directly the parent, not the parent of the parent).
+- Vue SFCs were helpful in organizing sections.
+
+### Continued development
+
+- For the nutrtions part, I wanted to use tables, but I didn't know how to style them as a lot of stuff like padding doesn't seem to work on tables. I was going insane so i just used a simple flexbox.
