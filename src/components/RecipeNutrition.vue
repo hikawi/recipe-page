@@ -16,7 +16,7 @@ defineProps<{
       <template v-for="(item, index) in nutrition" :key="item.type">
         <div class="flex flex-row items-center justify-center text-left px-8 gap-4">
           <span class="text-left w-1/2">{{ item.type }}</span>
-          <span class="font-bold text-left w-1/2">{{ item.value }}</span>
+          <span class="font-bold text-left w-1/2 text-brown-800">{{ item.value }}</span>
         </div>
         <hr v-if="index !== nutrition.length - 1" class="border-stone-150" />
       </template>
