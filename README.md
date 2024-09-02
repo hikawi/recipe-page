@@ -21,7 +21,7 @@ This is a bit more difficult than the previous challenges as there are layout di
 
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](./screenshot.png)
 
 ### Links
 
