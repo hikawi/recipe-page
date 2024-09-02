@@ -1,0 +1,124 @@
+{
+  "title": "Pan-fried Noodles Recipe",
+  "description": "You will not believe how EASY and quick it is to make these delicious Soy Sauce Noodles! Savory, spicy, and super addicting Soy Sauce Pan-fried Noodles take less than 15 minutes to make at home. Today, I am making a vegetarian-friendly version, but you can also add chicken, pork, or beef to the noodles. Soy Sauce Pan-fried noodles are a must try the recipe and the perfect weeknight dinner that goes well with EVERYTHING.",
+  "src": "/image-noodles.jpg",
+  "alt": "Noodles",
+  "preparations": [
+    {
+      "title": "Total",
+      "value": "Approximately 20 minutes"
+    },
+    {
+      "title": "Preparation",
+      "value": "5 minutes"
+    },
+    {
+      "title": "Cooking",
+      "value": "15 minutes"
+    }
+  ],
+  "ingredients": [
+    "450g Noodles",
+    "3 tbsp Soy Sauce",
+    "2.5 tbsp Dark Soy Sauce",
+    "2 tbsp Sugar",
+    "2 tbsp Sesame Oil",
+    "4 tbsp Water or Vegetable Stock",
+    "6 cloves Garlic sliced",
+    "3 Green Onion cut into 2-inch pieces",
+    "1-3 Red Chili chopped",
+    "1.5 cups Bean Sprouts"
+  ],
+  "instructions": [
+    {
+      "title": "Mix",
+      "value": "In a bowl, mix soy sauce, dark soy sauce, sesame oil, water, and sugar till combined."
+    },
+    {
+      "title": "Cook",
+      "value": "Cook noodle as per instruction, drain and set aside."
+    },
+    {
+      "title": "Drizzle",
+      "value": "In a pan, drizzle in oil and turn the heat up to medium-high. Once the pan is hot, add garlic, the white part of green onion, and chopped red chili. Saute together for 2-3 minutes"
+    },
+    {
+      "title": "Put in noodles",
+      "value": "Add in the noodles and pour in the sauce; mix so all the noodles are coated."
+    },
+    {
+      "title": "Saute",
+      "value": "Turn the heat to high, add in bean sprouts, saute on high heat for 2-3 minutes."
+    },
+    {
+      "title": "Saute again",
+      "value": "Add in the rest of the green onion, saute on high heat for 1-2 minutes."
+    }
+  ],
+  "nutrition": [
+    {
+      "type": "Serving",
+      "value": "170g"
+    },
+    {
+      "type": "Calories",
+      "value": "508kcal"
+    },
+    {
+      "type": "Carbohydrates",
+      "value": "93g"
+    },
+    {
+      "type": "Protein",
+      "value": "14g"
+    },
+    {
+      "type": "Fat",
+      "value": "9g"
+    },
+    {
+      "type": "Saturated Fat",
+      "value": "1g"
+    },
+    {
+      "type": "Polyunsaturated Fat",
+      "value": "3g"
+    },
+    {
+      "type": "Monounsaturated Fat",
+      "value": "3g"
+    },
+    {
+      "type": "Sodium",
+      "value": "1790mg"
+    },
+    {
+      "type": "Potassium",
+      "value": "190mg"
+    },
+    {
+      "type": "Fiber",
+      "value": "3g"
+    },
+    {
+      "type": "Sugar",
+      "value": "9g"
+    },
+    {
+      "type": "Vitamin A",
+      "value": "237IU"
+    },
+    {
+      "type": "Vitamin C",
+      "value": "24mg"
+    },
+    {
+      "type": "Calcium",
+      "value": "26mg"
+    },
+    {
+      "type": "Iron",
+      "value": "1mg"
+    }
+  ]
+}
